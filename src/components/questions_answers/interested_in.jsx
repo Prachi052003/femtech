@@ -4,8 +4,8 @@ import './interest.css'; // Make sure to import the CSS file you created
 
 export default function Component() {
   return (
-    <div className="container">
-      <h2 className="heading">Are you interested in any particular industries?</h2>
+    <div className="containerInt">
+      <h2 className="headingInt">Are you interested in any particular industries?</h2>
       <div className="grid">
         {/* Note: For Material-UI Buttons, the correct prop for an outlined button is variant="outlined" */}
         <Button variant="outlined" className="button">Agriculture</Button>

@@ -1,6 +1,6 @@
 /* style.css */
 
-.container {
+.containerInt {
     display: flex;
     flex-direction: column;
     max-width: 1024px; /* Equivalent to max-w-4xl */
@@ -9,7 +9,7 @@
     align-items: center;
   }
   
-  .heading {
+  .headingInt {
     font-size: 1.5rem; /* Equivalent to text-2xl */
     font-weight: 600; /* Equivalent to font-semibold */
     margin-bottom: 1.5rem; /* Equivalent to mb-6 */
