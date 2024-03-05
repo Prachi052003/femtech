@@ -33,9 +33,7 @@ export default function Header() {
 				<ImageWrapper>
 					<Img
 						className="radius8"
-						src={
-							"https://user-images.githubusercontent.com/73426684/211127930-04c39bb4-df72-4b1b-aa72-358275b49f39.png"
-						}
+						src='/images/icons/download.jpeg'
 						alt="office"
 						style={{ zIndex: 9 }}
 					/>
