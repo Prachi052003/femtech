@@ -1,0 +1,74 @@
+/* Work Life Styles */
+.max-w-md {
+    max-width: 28rem; /* Equivalent to 448px */
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .my-10 {
+    margin-top: 2.5rem; /* Equivalent to 40px */
+    margin-bottom: 2.5rem;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem; /* Equivalent to 24px */
+  }
+  
+  .h-1 {
+    height: 0.25rem; /* Equivalent to 4px */
+  }
+  
+  .w-10 {
+    width: 2.5rem; /* Equivalent to 40px */
+  }
+  
+  .bg-gray-300 {
+    background-color: #cbd5e0; /* Use the desired gray color */
+  }
+  
+  .text-xl {
+    font-size: 1.25rem; /* Equivalent to 20px */
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  /* Form Styles */
+  .form {
+    width: 100%;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem; /* Equivalent to 16px */
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .p-4 {
+    padding: 1rem; /* Equivalent to 16px */
+  }
+  
+  .border {
+    border-width: 1px;
+    border-style: solid;
+  }
+  
+  .border-gray-300 {
+    border-color: #cbd5e0; /* Use the desired gray color */
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  /* Input Styles */
+  input {
+    margin-right: 0.5rem; /* Adjust as needed */
+  }
+  
