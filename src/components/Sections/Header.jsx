@@ -44,14 +44,14 @@ export default function Header() {
 						<div>
 							<p className="font15 whiteColor">
 								<em>
-									Precisely what menstruation is, is not yet very well known.
+								Empowering Minds, Igniting Change: A Journey through Women's Education.
 								</em>
 							</p>
 							<p
 								className="font13 orangeColor textRight"
 								style={{ marginTop: "0.5px" }}
 							>
-								G. Stanley Hall
+								FemTech
 							</p>
 						</div>
 					</QuoteWrapper>
