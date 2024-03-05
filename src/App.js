@@ -16,7 +16,8 @@ import DashboardBlogCard from "./components/Sections/DashboardBlogCard.jsx";
 import NearClinic from "./components/nearestClinic/nearestClinic.jsx";
 import NearHospital from "./components/nearestHospital/nearestHospital.jsx";
 import MoodyBot from "./components/moodyBot.jsx";
-
+import Worklife from "./components/questions_answers/work_life.jsx";
+import Graph from "./components/canvas/graph.jsx"
 export default function App() {
 	return (
 		<>
@@ -45,6 +46,9 @@ export default function App() {
 					<Route path="/nearclinic" element={<NearClinic />} />
 					<Route path="/nearhospital" element={<NearHospital />} />
 					<Route path="/moodybot" element={<MoodyBot />} />
+					<Route path="/answer" element={<Worklife />} />
+					<Route path="/canvas" element={<Graph />} />
+					
 				</Routes>
 			</BrowserRouter>
 		</>
