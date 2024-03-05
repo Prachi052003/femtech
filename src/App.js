@@ -18,6 +18,8 @@ import NearHospital from "./components/nearestHospital/nearestHospital.jsx";
 import MoodyBot from "./components/moodyBot.jsx";
 import Worklife from "./components/questions_answers/work_life.jsx";
 import Graph from "./components/canvas/graph.jsx"
+import Interested from "./components/questions_answers/interested_in.jsx"
+import NotInterested from "./components/questions_answers/not_interested.jsx"
 export default function App() {
 	return (
 		<>
@@ -48,7 +50,8 @@ export default function App() {
 					<Route path="/moodybot" element={<MoodyBot />} />
 					<Route path="/answer" element={<Worklife />} />
 					<Route path="/canvas" element={<Graph />} />
-					
+					<Route path="/interested" element={<Interested/>}/>
+					<Route path="/notinterested" element={<NotInterested/>}/>
 				</Routes>
 			</BrowserRouter>
 		</>

@@ -1,0 +1,40 @@
+/* style.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px; /* Equivalent to max-w-4xl */
+    margin: 2rem auto; /* Equivalent to mx-auto and my-8 */
+    padding: 2rem; /* Equivalent to p-8 */
+    align-items: center;
+  }
+  
+  .heading {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Equivalent to grid-cols-3 */
+    gap: 1rem; /* Equivalent to gap-4 */
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center; /* Equivalent to justify-center */
+  }
+
+  /* style.css additions for buttons */
+.button {
+    margin: 6px; /* Add some space around each button */
+  }
+  
+  /* You can add more specific styles for the buttons here, such as colors, padding, etc. */
+  
